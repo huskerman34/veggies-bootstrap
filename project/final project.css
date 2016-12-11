@@ -1,0 +1,70 @@
+
+
+
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    
+    
+}
+
+#main {
+   
+    padding-bottom: 25px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+  
+    text-align: center;
+    padding: 15px;
+}
+
+.jumbotron {
+    
+    
+    background-size: cover;
+    background-clip: border-box;
+    color: #000000;
+    margin-top: 15pxco padding bottom: 25px;
+    text-align: center;
+    
+}
+
+.jumbotron small {
+   color: black
+}
+
+.jumbotron p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.navbar-inverse .navar-brand {
+   
+}
+
+.navbar-inverse {
+    
+}
+.navbar-inverse .btn {
+   
+}
+  #education,skills,gallery, home {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+    
+   img {height: 150px; width: 150px;}
+  
